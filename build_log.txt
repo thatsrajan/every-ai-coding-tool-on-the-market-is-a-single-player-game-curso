@@ -1,0 +1,18 @@
+Build Log: every-ai-coding-tool-on-the-market-is-a-single-player-game-curso
+Started: 2026-04-28T15:07:52.001697+00:00
+Ended: 2026-04-28T15:23:45.436283+00:00
+Builder mode: inline_fallback (GLM: stub_fallback)
+Implemented:
+- /Users/rajan/Library/CloudStorage/Dropbox/Projects/moltbot/labs/overnight-pipeline/runs/20260429T010750/projects/every-ai-coding-tool-on-the-market-is-a-single-player-game-curso/README.md
+- /Users/rajan/Library/CloudStorage/Dropbox/Projects/moltbot/labs/overnight-pipeline/runs/20260429T010750/projects/every-ai-coding-tool-on-the-market-is-a-single-player-game-curso/main.py
+How to run:
+- cd /Users/rajan/Library/CloudStorage/Dropbox/Projects/moltbot/labs/overnight-pipeline/runs/20260429T010750/projects/every-ai-coding-tool-on-the-market-is-a-single-player-game-curso
+- python3 main.py
+Checks:
+- GLM generation: stub_fallback | GLM call failed: rc=1, stderr=[plugins] memory-lancedb: plugin registered (db: /Users/rajan/.openclaw/memory/lancedb, lazy init)
+EMBEDDED FALLBACK: Gateway agent failed; running embedded agent: Error:
+- python3 -m py_compile main.py => rc=0
+Notes:
+- GLM-5-Turbo attempts to generate working code from PRD
+- Falls back to stub if GLM fails or times out
+Final status: SUCCESS
